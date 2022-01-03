@@ -1,0 +1,24 @@
+React - Redux structure
+--------------------------
+
+components
+containers
+service
+    actions
+
+    reducers
+
+    constants
+----------------------------
+
+COMPONENTS contains navbar, footer, product,etc
+SERVICE is a redux folder contains 3 folders: 
+    
+    constants will tell actions which func/data should go in which part of reducer.
+
+CONTAINERS folder will map both react(/components) and redux(/service)
+
+----------------------------
+
+
+
